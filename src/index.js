@@ -9,7 +9,7 @@ import { version } from '../package.json';
 
 if (process.env.NODE_ENV === 'production') {
   Sentry.init({
-    dsn: "https://a3f062a9ad00480d9645b7d539966693@sentry.io/1339362",
+    dsn: "https://c642a12ecf494c7292ef5ec50aa6fd31@sentry.io/1339509",
     release: version,
   });
 }
