@@ -6,7 +6,8 @@ import CountryGame from './CountryGame'
 
 class App extends Component {
   render() {
-    const myVar = {};
+    const myVar = "asdf";
+    if (myVar) throw new Error("Test error");
     return (
       <div className="flag-app">
         <div>
@@ -17,7 +18,6 @@ class App extends Component {
             <h1 className="title-text">Guess The Flag</h1>
           </header>
         </div>
-        {myVar.flags.mm}
         <CountryGame />
       </div>
     );
